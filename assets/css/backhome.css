@@ -1,0 +1,32 @@
+.back-to-home {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;  /* Chuyển sang bên phải */
+    z-index: 1000;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 0.8em;  /* Giảm kích thước chữ */
+}
+
+.back-to-home:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Thêm padding cho wrapper để tránh chồng lấn */
+#wrapper {
+    padding-top: 2rem;
+}
+
+/* Đảm bảo section không bị che khuất */
+section {
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+}
